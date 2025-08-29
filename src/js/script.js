@@ -24,7 +24,7 @@ var videoDuration = 0;
             video.play();
 
             videoDuration = video.duration;  // Guardamos la duración total del video
-            closeAvailableIn = 0; // Tiempo en segundos para habilitar el botón de cerrar
+            closeAvailableIn = 1; // Tiempo en segundos para habilitar el botón de cerrar
 
             var timeMessage = document.getElementById('timeMessage');
             setInterval(function () {
